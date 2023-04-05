@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site IFPR viagens</title>
+    <script src="https://unpkg.com/feather-icons"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -40,7 +41,9 @@
                     <div class="card-content">
                         <h1>Passeio de Elefante</h1>
                         <ul>
-                            <li><i></i>Alegria</li>
+                            <li><i data-feather="smile"></i> Alegria</li>
+                            <li><i data-feather="map"></i> Rotas</li>
+                            <li><i data-feather="coffee"></i> Café Grátis</li>
                         </ul>
                 </div>
             </div>
@@ -55,7 +58,9 @@
                     <div class="card-content">
                         <h1>Passeio em barco</h1>
                         <ul>
-                            <li><i></i>Alegria</li>
+                            <li><i data-feather="heart"></i> Traquilidade</li>
+                            <li><i data-feather="map"></i> Rotas</li>
+                            <li><i data-feather="sunset"></i> Anoitecer incrivel</li>
                         </ul>
                 </div>
             </div>
@@ -70,11 +75,49 @@
                     <div class="card-content">
                         <h1>Conheça os templos</h1>
                         <ul>
-                            <li><i></i>Alegria</li>
+                            <li><i data-feather="camera"></i> Fotos</li>
+                            <li><i data-feather="wifi"></i> Wifi Grátis</li>
+                            <li><i data-feather="sunrise"></i> Amanhecer</li>
                         </ul>
                 </div>
             </div>
         </div>
     </section>
+
+    <section id="sevicos" class="servicos">
+        <h1 class="servicos-title">Serviços</h1>
+        <div class="servicos-cards">
+            <div class="card">
+                <i data-feather="map"></i>
+                <div class="card-content">
+                    <h3>ours Guiados</h3>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repellat corporis commodi dicta, molestiae laboriosam.</P>
+
+                </div>
+                <button>Saiba Mais</button>
+            </div>
+            <div class="card">
+                <i data-feather="camera"></i>
+                <div class="card-content">
+                    <h3>ours Guiados</h3>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repellat corporis commodi dicta, molestiae laboriosam.</P>
+
+                </div>
+                <button>Saiba Mais</button>
+            </div>
+            <div class="card">
+                <i data-feather="navigation"></i>
+                <div class="card-content">
+                    <h3>ours Guiados</h3>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore repellat corporis commodi dicta, molestiae laboriosam.</P>
+
+                </div>
+                <button>Saiba Mais</button>
+            </div>
+        </div>
+    </section>
+    <script>
+        feather.replace()
+      </script>
 </body>
 </html>
