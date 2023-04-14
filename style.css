@@ -202,14 +202,27 @@ header nav p {
 }
 
 .contatos {
-    height: 250px;
-    background: black;
+    height: 550px;
+    background: rgb(114, 108, 108);
 }
 
-.contatos .contatos-title {
+.contatos .mail svg {
     color: white;
+    
 }
 
-.contatos h2 {
-    color: white;
+.contatos .facebook svg {
+    color: #0d3c92;
+}
+
+.contatos .twitter svg {
+    color: rgb(0, 140, 255);
+}
+
+.contatos .instagram svg {
+    color: rgb(156, 10, 144);
+}
+
+.contatos .smartphone svg {
+    color: rgba(72, 255, 0, 0.979);
 }
